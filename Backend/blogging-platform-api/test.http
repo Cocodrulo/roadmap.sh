@@ -1,0 +1,33 @@
+### POST A NEW POST
+POST http://localhost:3000/posts
+content-type: application/json
+
+{
+    "title": "My Second Blog Post",
+    "content": "This is the content of my second blog post.",
+    "category": "Technology",
+    "tags": ["Tech", "Programming"]
+}
+
+### GET ALL POSTS
+GET http://localhost:3000/posts
+
+### GET A SINGLE POST
+GET http://localhost:3000/posts/1
+
+### UPDATE A POST
+PUT http://localhost:3000/posts/1
+content-type: application/json
+
+{
+    "title": "My First Blog Post",
+    "content": "This is the content of my first blog post.",
+    "category": "Technology",
+    "tags": ["Tech", "Programming"]
+}
+
+### DELETE A POST
+DELETE http://localhost:3000/posts/2
+
+### GET AL TECH POST
+GET http://localhost:3000/posts?term=tech

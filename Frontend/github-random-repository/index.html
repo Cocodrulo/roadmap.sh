@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Github Repository Finder</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" type="module"></script>
+        <link rel="icon" href="images/github.png" />
+    </head>
+    <body>
+        <main>
+            <h1>
+                <img src="images/github.png" />
+                Github Repository Finder
+            </h1>
+            <form>
+                <select name="language" id="language">
+                    <option value="none" selected>Select a Language</option>
+                </select>
+                <span id="state-indicator">Please select a language</span>
+                <article id="repository"></article>
+                <button>Refresh</button>
+            </form>
+        </main>
+    </body>
+</html>
