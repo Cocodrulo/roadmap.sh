@@ -9,6 +9,7 @@ This website also provide a bunch of projects. I'm doing some of them and submit
 ### [Frontend](/Frontend)
 
 -   [x] [Github Random Repository](/Frontend/github-random-repository): Roadmap [link](https://roadmap.sh/projects/github-random-repo).
+-   [x] [Changelog Component](/Frontend/changelog-component): Roadmap [link](https://roadmap.sh/projects/changelog-component).
 
 ### [Backend](/Backend)
 
